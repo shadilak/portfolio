@@ -244,3 +244,92 @@ font-family: 'Times New Roman', Times, serif;
     color: black;
     margin-bottom: 10px;
 }
+
+
+/* General reset and font imports */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Global Styles */
+body {
+    background-color: azure;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 53%, rgba(0, 212, 255, 1) 100%);
+}
+
+/* Header */
+header {
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 53%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Navigation Links */
+header a {
+    color: rgb(238, 236, 236);
+    text-decoration: none;
+}
+
+nav a {
+    margin: 20px;
+}
+
+/* Hero Section */
+.hero-container {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-container {
+    width: 350px;
+    margin-left: 70px;
+}
+
+.left-container img {
+    width: 400px;
+    height: 400px;
+    border-radius: 70%;
+    display: block;
+    margin: 10px;
+    margin-left: 100px;
+}
+
+.word-container {
+    font-size: 25px;
+    width: 800px;
+    color: rgb(255, 255, 255);
+}
+
+.word-container h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.word-container p {
+    font-family: sans-serif;
+    margin-top: 20px;
+    line-height: 25px;
+    color: aliceblue;
+}
+
+.word-container button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.word-container button:hover {
+    background-color: rgb(0, 0, 0)
+
